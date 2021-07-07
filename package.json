@@ -1,0 +1,20 @@
+{
+  "name": "simple-crawler-node",
+  "version": "1.0.0",
+  "description": "A simple crawler to collect data from ecommerce, created using nodejs with puppeter",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "jsdom": "^16.6.0",
+    "puppeteer": "^10.1.0",
+    "request": "^2.72.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Trindade",
+  "license": "ISC"
+}
